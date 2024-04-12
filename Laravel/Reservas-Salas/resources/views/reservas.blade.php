@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Documento HTML</title>
+    <link rel="stylesheet" href="reservar.css">
+    <title>Reserva de Sala de Aula: Tela Reservar Sala</title>
+
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Este é um exemplo básico de um documento HTML.</p>
-    <p>Você pode adicionar mais elementos aqui, como:</p>
-    <ul>
-        <li>Links</li>
-        <li>Imagens</li>
-        <li>Tabelas</li>
-        <li>Formulários</li>
-        <li>E muito mais!</li>
-    </ul>
+    <div class="container">
+        <h1>Reserva de Sala de Aula: Tela Reservar Sala</h1>
+        
+        <form id="reservationForm">
+            <table>
+                <tr>
+                    <th>Sala que vai reservar:</th>
+                    <td><input type="text" name="sala" required></td>
+                </tr>
+                <tr>
+                    <th>Data e Hora:</th>
+                    <td><input type="datetime-local" name="dataHora" required></td>
+                </tr>
+                <tr>
+                    <th>Professor:</th>
+                    <td><input type="text" name="professor" required></td>
+                </tr>
+                <tr>
+                    <th>Turma:</th>
+                    <td><input type="text" name="turma" required></td>
+                </tr>
+                <tr>
+                    <th>Finalidade:</th>
+                    <td><input type="text" name="finalidade" required></td>
+                </tr>
+            </table>
+            <button type="submit" class="btn">Reservar</button>
+        </form>
+    </div>
 </body>
 </html>
