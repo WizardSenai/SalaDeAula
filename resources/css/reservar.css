@@ -1,78 +1,75 @@
+body {
+    background-color: #f3f3f8; /* Cor de fundo da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+header {
+    background-color: #5C3A93; /* Cor de fundo do cabeçalho */
+    color: #f2f2f2; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Adiciona espaço interno ao redor do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+}
+
 table {
-    border: 1px solid black; /* Define a largura da borda da tabela */
-    border-collapse: collapse; /* Mescla as bordas das células para um visual mais limpo */
-    margin: 0 auto; /* Centraliza a tabela na página */
-    width: 1200px; /* Largura da tabela */
-    height: 600px; /* Altura da tabela */
-    background-color: #F3F3F8; /* Cor de fundo da tabela */
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+    background-color: #f3f3f8; /* Cor de fundo da tabela */
 }
 
 th, td {
-    border: 1px solid black; /* Define a borda das células */
-    padding: 10px; /* Reduzindo o padding para evitar espaços grandes */
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
     width: 150px;
 }
 
 th {
-    background-color: #96A1FF; /* Cor de fundo dos cabeçalhos */
+    background-color: #96A1FF;
     color: #000000;
 }
 
-div {
-    text-align: center;
-    background-color: #5C3A93;
-    color: #f2f2f2;
-    height: 50px;
-}
+
 
 input[type="text"], input[type="datetime-local"] {
     padding: 10px;
     border: 1px solid #000000;
     border-radius: 5px;
-    width: 200px; /* Ajustando a largura dos campos de entrada */
-    margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 input[type="datetime-local"]::-webkit-calendar-picker-indicator {
-    background-color: #96A1FF; /* Cor do ícone do calendário */
+    background-color: #96A1FF;
     color: white;
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
 }
 
-h5 {
-    margin-left: 1100px;
-    text-align: center; 
-    line-height: 80px;  
-    background-color: black;
-    color: #f2f2f2;
-    width: 55px;  
-    height: 25px;
-    border-radius: 50%;  
-    display: inline-block;   
-}
-
-p {
-    color: black;
-    width: 10px;  
-    height: 5px;
-    border-radius: 90%;  
-    display: inline-block; 
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 600px; /* Defina a largura desejada para o contêiner dos botões */
+    margin-left: auto; /* Centraliza os botões */
+    margin-right: auto; /* Centraliza os botões */
 }
 
 .btn {
-    background-color: black;
-    color: white;
+    background-color: #5C3A93; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
     padding: 10px 20px;
-    border: none;
-    border-radius: 300px; 
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
     cursor: pointer;
     display: block;
-    margin: 20px auto 0; /* Centraliza o botão na horizontal e define a margem superior */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo ao passar o mouse */
 }
 
 .btn:hover {
-    background-color: #333;
+    background-color: #6D4CA9; /* Cor de fundo ao passar o mouse */
 }

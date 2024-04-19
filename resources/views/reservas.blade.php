@@ -11,7 +11,7 @@
     <div class="container">
         <h1>Reserva de Sala de Aula: Tela Reservar Sala</h1>
 
-        <form id="reservationForm">
+        <form id="reservationForm" class="form">
             <table>
                 <tr>
                     <th>Sala que vai reservar:</th>
@@ -34,7 +34,11 @@
                     <td><input type="text" name="finalidade" required></td>
                 </tr>
             </table>
-            <button type="submit" class="btn">Reservar</button>
+            <div class="btn-container">
+                <button type="submit" class="btn">Reservar</button>
+                <button type="submit" class="btn">Editar</button>
+                <button type="submit" class="btn">Excluir</button>
+            </div>
         </form>
     </div>
 </body>
