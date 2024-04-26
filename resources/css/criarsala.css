@@ -1,0 +1,52 @@
+.minha-tabela th {
+    background-color: #96A1FF;
+}
+
+.minha-tabela tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.minha-tabela {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+}
+
+.minha-tabela th, .minha-tabela td {
+    border: 1px solid black; /* Adiciona bordas pretas */
+    padding: 8px;
+    text-align: center;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    background-color: #6D4CA9;
+    color: #f2f2f2;
+}
+
+.criar-sala-btn {
+    background-color: #5C3A93; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    padding: 5px 30px;
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo ao passar o mouse */
+    margin-left: 1690px;
+    margin-top: 45px;
+    text-align: center;
+    float: inline-start;
+
+}
+
+.criar-sala-btn:hover {
+    background-color: rgb(32, 32, 116);
+}
+
+a{
+    text-decoration: none;
+}

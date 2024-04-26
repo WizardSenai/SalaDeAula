@@ -71,5 +71,15 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 }
 
 .btn:hover {
-    background-color: #6D4CA9; /* Cor de fundo ao passar o mouse */
+    background-color: rgb(32, 32, 116);
 }
+
+
+h1{
+    justify-content: center;
+    text-align: center;
+    background-color:#6D4CA9;
+    color:#f2f2f2;
+}
+
+

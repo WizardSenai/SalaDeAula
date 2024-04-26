@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite(['resources/css/reservar.css', 'resources/js/reserva.js'])
+     @vite(['resources/css/reservar.css', 'resources/js/reserva.js'])
     <title>Reserva de Sala de Aula: Tela Reservar Sala</title>
 
 </head>
 <body>
     <div class="container">
-        <h1>Reserva de Sala de Aula: Tela Reservar Sala</h1>
+        <h1>Reserva de Sala de Aula: Criar Sala</h1>
 
         <form id="reservationForm" class="form">
             <table>
                 <tr>
-                    <th>Sala que vai reservar:</th>
+                    <th>Número da sala:</th>
                     <td><input type="text" name="sala" required></td>
                 </tr>
                 <tr>
-                    <th>Data e Hora:</th>
-                    <td><input type="datetime-local" name="dataHora" required></td>
+                    <th>Bloco:</th>
+                    <td><input type="text" name="bloco" required></td>
                 </tr>
                 <tr>
-                    <th>Professor:</th>
+                    <th>Responsável pelo gerenciamento:</th>
                     <td><input type="text" name="professor" required></td>
                 </tr>
                 <tr>
-                    <th>Turma:</th>
+                    <th>Capacidade de alunos:</th>
                     <td><input type="text" name="turma" required></td>
                 </tr>
                 <tr>
@@ -35,9 +35,10 @@
                 </tr>
             </table>
             <div class="btn-container">
-                <button type="submit" class="btn">Reservar</button>
+                <button type="submit" class="btn">Criar sala</button>
                 <button type="submit" class="btn">Editar</button>
                 <button type="submit" class="btn">Excluir</button>
+                <button type="submit" class="btn">Exibir menos</button>
             </div>
         </form>
     </div>
