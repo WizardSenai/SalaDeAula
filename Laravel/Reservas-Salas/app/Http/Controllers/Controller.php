@@ -2,15 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Spatie\FlareClient\View;
+
 abstract class Controller
 {
-    //
-}
-
-class Controller extends Controller
-{
-    public function metodo ()
-    {
-        return view('tela1');
-    }
+    
 }
